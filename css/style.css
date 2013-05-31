@@ -3,8 +3,16 @@
     background-color: #fae65d;   
 }
 
-/*.img_compass {
+.img_compass {
+	/*margin-top: 30px;
     display: block;
     margin-left: auto;
-    margin-right: auto
-}*/
+    margin-right: auto*/
+}
+
+#compass
+{
+	transform:rotate(0deg); /* in case someone creates a compliant browser */
+	-ms-transform:rotate(0deg); /* WP7 */
+	-webkit-transform:rotate(0deg); /* iOS and Android */
+}
