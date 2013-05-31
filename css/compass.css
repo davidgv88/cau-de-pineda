@@ -1,0 +1,19 @@
+#error, #results{
+            display: none;
+        }
+
+        #arrow{
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background: 50% 50% no-repeat; 
+            background-size: 30px 30px;
+            background-image: url('../img/arrow.png');
+            top: 0;
+            left: 50%;
+            margin: 30px 0 0 -15px;
+        }
+
+        #results .text{
+            margin-top: 100px;
+        }
